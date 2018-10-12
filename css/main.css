@@ -1,0 +1,59 @@
+.home {
+		height: 701px;
+}
+
+.about {
+		background: #7cfc00;
+		height: 700px;
+}
+
+.work-experience {
+		background: pink;
+		height: 700px;
+}
+
+body {
+		/*background-image: url("calm-clear-water-clouds.jpg");*/
+		background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("servers.jpg");
+		background-repeat: no-repeat;
+		background-size: contain;
+}
+
+.nav-link {
+		font-size: 20px;
+		color: #7cfc00;
+		margin-left: 20px;
+		margin-right: 20px;
+}
+
+.nav-link:hover {
+		color: white;
+		border-bottom: 3px solid #7cfc00;
+}
+
+
+.img-circle{
+		border-radius: 100%;
+		border: 3px solid black;
+}
+
+.mordo {
+		margin-top: 150px;
+}
+
+.blink {
+		animation: blink 0.7s infinite;
+		color: #7cfc00;
+}
+	 
+@keyframes blink{ 
+		0%{opacity: 1;} 
+		75%{opacity: 1;} 
+		76%{ opacity: 0;} 
+		100%{opacity: 0;} 
+}
+
+.asdf {
+		color: #7cfc00;
+}
+
