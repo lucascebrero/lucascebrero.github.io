@@ -13,7 +13,6 @@
 }
 
 body {
-		/*background-image: url("calm-clear-water-clouds.jpg");*/
 		background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("servers.jpg");
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -53,7 +52,15 @@ body {
 		100%{opacity: 0;} 
 }
 
-.asdf {
+.green-text {
 		color: #7cfc00;
 }
 
+.white-text {
+		color: white;
+}
+
+hr {
+		width: 250px;
+		border-top: 2px solid white;
+}

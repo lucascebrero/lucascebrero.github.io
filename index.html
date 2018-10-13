@@ -14,8 +14,8 @@
 		</head>
 		<body>
 				<div class="navbar-brand fixed-top"> 
-						<a class="asdf" href="href">[ root@localhost ]$</a> 
-						<a class="asdf blink" href="href">></a>
+						<a class="green-text" href="href">[ root@localhost ]$</a> 
+						<a class="green-text blink" href="href">></a>
 				</div> 
 				<nav class="navbar navbar-expand-sm flex-row-reverse bg-transparent fixed-top"> 
 						<ul class="navbar-nav"> 
@@ -36,7 +36,12 @@
 				<div class="home container-fluid">
 						<div class="col-4 mx-auto text-center">
 								<img class="img-circle mordo" src="css/mor.png">
-						</div>r	
+						</div>	
+						<div class="container-fluid white-text">
+							<hr/>
+							<p class="text-center">Self-Learner.Docker.Linux.Homelab</p>
+							<hr/>
+						</div>
 				</div>
 				<div class="about container-fluid">
 						<h1>About</h1>
@@ -47,6 +52,8 @@
 
 				<!-- JQuery -->
 				<script src="js/jquery-3.3.1.min.js"></script>
+
+				<!-- Scroll scripts -->
 				<script> 
 						$(".scroll-about").click(function() {
 								    $('html,body').animate({
@@ -58,6 +65,13 @@
 											        scrollTop: $(".work-experience").offset().top},
 											        'slow');
 						});
+
+						$(".scroll-home").click(function() {
+								    $('html,body').animate({
+											        scrollTop: $(".home").offset().top},
+											        'slow');
+						});
+
 				</script>		
 		</body>
 </html>
