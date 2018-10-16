@@ -10,12 +10,13 @@
 
 				<!-- My CSS -->
 				<link rel="stylesheet" type="text/css" href="css/main.css">
-
 		</head>
 		<body>
 				<div class="navbar-brand fixed-top navbar-background"> 
-						<a class="green-text" href="href">[ root@localhost ]$</a> 
-						<a class="green-text blink" href="href">></a>
+						<a class="green-text" href="href">[ root@localhost ]$</a>
+						<a class="white-text" href="#">Lucas Cebrero Lell</a>
+						<a class="green-text blink" href="#">_</a>
+
 				</div> 
 				<nav class="navbar navbar-expand-sm flex-row-reverse bg-transparent fixed-top navbar-background"> 
 						<ul class="navbar-nav"> 
@@ -35,7 +36,7 @@
 				</nav>
 				<div class="home container-fluid">
 						<div class="col-4 mx-auto text-center">
-								<img class="img-circle mordo" src="css/mor.png">
+								<img class="img-circle" src="css/mor.png">
 						</div>	
 						<div class="container-fluid white-text">
 							<hr/>
@@ -44,10 +45,16 @@
 						</div>
 				</div>
 				<div class="about container-fluid">
-						<h1>About</h1>
+						<div class="about-h1 container-fluid col-lg-8 col-lg-offset-2 text-center white-text">
+							<h1>About me</h1>
+							<p class="about-text">I've always been intrigued about how things work and fascinated by how hackers could find the way around systems 
+							and so I realized that gaining a deeper undestanding of system would contribute to my goal to be a hacker.</p>
+						</div>
 				</div>
 				<div class="work-experience container-fluid">
-						<h1>Work Experience</h1>
+						<div class="about-h1 container-fluid col-lg-8 col-lg-offset-2 text-center">
+							<h1>Work Experience</h1>
+						</div>
 				</div>
 
 				<!-- JQuery -->
@@ -77,16 +84,7 @@
 										$nav.toggleClass('scrolled',$(this).scrollTop() > $nav.height());
 								});
 						});
-						$(window).scroll(function(){ 
-								if(parseInt($(window).scrollTop()) > parseInt("700")){ 
-										$("nav").removeClass("bg-transparent"); 
-										$(".navbar").css("background-color","white"); 
-								}
-								else {
-										$("nav").addClass("bg-transparent");
-								}
 
-						});
 				</script>		
 		</body>
 </html>

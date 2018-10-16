@@ -1,15 +1,16 @@
 .home {
 		height: 701px;
+		padding: 170px;
 }
 
 .about {
-		background: #7cfc00;
-		height: 700px;
+		background: #1d2120;
+		height: 450px;
 }
 
 .work-experience {
-		background: pink;
-		height: 700px;
+		background: white;
+		height: 750px;
 }
 
 body {
@@ -32,13 +33,10 @@ body {
 
 
 .img-circle{
-		border-radius: 100%;
+		border-radius: 50%;
 		border: 3px solid black;
 }
 
-.mordo {
-		margin-top: 150px;
-}
 
 .blink {
 		animation: blink 0.7s infinite;
@@ -64,3 +62,13 @@ hr {
 		width: 250px;
 		border-top: 2px solid white;
 }
+
+.about-text {
+		font-size: 20px; 
+		width: 900px;
+}
+
+.about-h1 {
+	padding-top: 120px;
+}
+
