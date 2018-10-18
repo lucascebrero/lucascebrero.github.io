@@ -1,90 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-		<head>
-				<!-- Required meta tags -->
-				<meta charset="utf-8">
-				<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+		<!-- Required meta tags -->
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-				<!-- Bootstrap CSS -->
-				<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-				<!-- My CSS -->
-				<link rel="stylesheet" type="text/css" href="css/main.css">
-		</head>
-		<body>
-				<div class="navbar-brand fixed-top navbar-background"> 
-						<a class="green-text" href="href">[ root@localhost ]$</a>
-						<a class="white-text" href="#">Lucas Cebrero Lell</a>
-						<a class="green-text blink" href="#">_</a>
+		<!--My CSS -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 
+        <title>Lucas Cebrero Lell</title>
+</head>
+<body>
+		<nav class="navbar fixed-top bg-transparent">
+				<div class="navbar-brand"> 
+						<a class="text-green">[ root@localhost ]$</a> 
+						<a class="text-white">Lucas Cebrero Lell</a> 
+						<a class="text-green blink">_</a>                  				
 				</div> 
-				<nav class="navbar navbar-expand-sm flex-row-reverse bg-transparent fixed-top navbar-background"> 
-						<ul class="navbar-nav"> 
-								<li class="nav-item nav"> 
-										<a class="nav-link scroll-home" href="#">Home</a> 
-								</li>
-								<li class="nav-item">
-										<a class="nav-link blog" href="#">Blog</a>
-								</li>
-				                <li class="nav-item">
-										<a class="nav-link scroll-about" href="#">About</a>
-								</li>
-				                <li class="nav-item">
-										<a class="nav-link scroll-work" href="#">Work Experience</a>
-								</li>
-				        </ul>
-				</nav>
-				<div class="home container-fluid">
-						<div class="col-4 mx-auto text-center">
-								<img class="img-circle" src="css/mor.png">
-						</div>	
-						<div class="container-fluid white-text">
-							<hr/>
-							<p class="text-center">Self-Learner.Docker.Linux.Homelab</p>
-							<hr/>
-						</div>
+				<div> 
+						<ul class="navbar-nav navbar-expand-sm ml-auto"> 
+								<li class="nav-item"><a class="nav-link scroll-home" href="#">Home</a></li>
+						        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+						        <li class="nav-item"><a class="nav-link scroll-about" href="#">About</a></li>
+						        <li class="nav-item"><a class="nav-link scroll-work" href="#">Work Experience</a></li>
+						</ul> 
+				</div> 
+		</nav>
+		<div class="home container-fluid">
+				<div class="col-4 mx-auto text-center text-white">
+						<img class="rounded-circle" src="css/mor.png">
+						<hr/>
+						<p>Security-Analyst.Linux.Docker.Homelabber</p>
+						<hr/>
+
 				</div>
-				<div class="about container-fluid">
-						<div class="about-h1 container-fluid col-lg-8 col-lg-offset-2 text-center white-text">
-							<h1>About me</h1>
-							<p class="about-text">I've always been intrigued about how things work and fascinated by how hackers could find the way around systems 
-							and so I realized that gaining a deeper undestanding of system would contribute to my goal to be a hacker.</p>
-						</div>
+				<div class="text-center">
+						<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+						</span>
+						<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+						</span>
+						<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+						</span>
+
 				</div>
-				<div class="work-experience container-fluid">
-						<div class="about-h1 container-fluid col-lg-8 col-lg-offset-2 text-center">
-							<h1>Work Experience</h1>
-						</div>
+		</div>
+		<div class="about container-fluid">
+				<div class="container-fluid col-lg-8 col-lg-offset-2 text-center white-text text-h1">
+						<h1>About me</h1>
+						<p class="about-text">Since hacking started to caught my attention, I realize that having a deep understanding of how systems work was the key to be a great hacker and that's when my journey to be hacker began.</p>
 				</div>
+		</div>
+		<div class="work-experience container-fluid">
+				<div class="container-fluid col-lg-8 col-lg-offset-2 text-center text-h1 work-text"> 
+						<h1>Work Experience</h1>
+				</div>
+		</div>
 
-				<!-- JQuery -->
-				<script src="js/jquery-3.3.1.min.js"></script>
+		<!-- JQery -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+	
+		<!-- Scroll scripts -->
+		<script> 
+				$(".scroll-home").click(function() { 
+						$('html,body').animate({ 
+								scrollTop: $(".home").offset().top}, 
+								'slow'); 
+				}); 
 
-				<!-- Scroll scripts -->
-				<script> 
-						$(".scroll-about").click(function() { 
-								$('html,body').animate({ 
-										scrollTop: $(".about").offset().top}, 
-										'slow'); 
+				$(".scroll-about").click(function() { 
+						$('html,body').animate({ 
+								scrollTop: $(".about").offset().top}, 
+								'slow'); 
+				}); 
+
+				$(".scroll-work").click(function() { 
+						$('html,body').animate({ 
+								scrollTop: $(".work-experience").offset().top}, 
+								'slow'); 
+				});
+
+				$(function(){
+						$(document).scroll(function(){
+								if(parseInt($(document).scrollTop()) > parseInt("1050")){
+										$('nav').removeClass("bg-transparent");
+										$('nav').css("background-color","#1d2120");
+								}
+								else {
+										$('nav').addClass("bg-transparent");
+								}
 						});
-						$(".scroll-work").click(function() { 
-								$('html,body').animate({ 
-										scrollTop: $(".work-experience").offset().top}, 
-										'slow'); 
-						});
+				});
+		</script>
 
-						$(".scroll-home").click(function() { 
-								$('html,body').animate({ 
-										scrollTop: $(".home").offset().top}, 
-										'slow'); 
-						}); 
-						$(function(){
-								$(document).scroll(function(){
-										var $nav = $(".navbar-background");
-										$nav.toggleClass('scrolled',$(this).scrollTop() > $nav.height());
-								});
-						});
-
-				</script>		
-		</body>
+</body>
 </html>

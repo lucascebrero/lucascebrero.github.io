@@ -6,11 +6,12 @@
 .about {
 		background: #1d2120;
 		height: 450px;
+		color: white;
 }
 
 .work-experience {
-		background: white;
-		height: 750px;
+	background: white;
+	height: 750px;
 }
 
 body {
@@ -18,10 +19,9 @@ body {
 		background-repeat: no-repeat;
 		background-size: contain;
 }
-
 .nav-link {
-		font-size: 20px;
 		color: #7cfc00;
+		font-size: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
 }
@@ -31,44 +31,37 @@ body {
 		border-bottom: 3px solid #7cfc00;
 }
 
-
-.img-circle{
-		border-radius: 50%;
-		border: 3px solid black;
-}
-
-
 .blink {
 		animation: blink 0.7s infinite;
 		color: #7cfc00;
 }
-	 
-@keyframes blink{ 
-		0%{opacity: 1;} 
-		75%{opacity: 1;} 
-		76%{ opacity: 0;} 
-		100%{opacity: 0;} 
-}
 
-.green-text {
+@keyframes blink {
+		0%{opacity: 1;}
+		75%{opacity: 1;}
+		76%{ opacity: 0;}
+		100%{opacity: 0;}
+}
+.navbar-brand {
 		color: #7cfc00;
 }
 
-.white-text {
-		color: white;
-}
-
 hr {
-		width: 250px;
+		width: 300px; 
 		border-top: 2px solid white;
 }
 
+
 .about-text {
-		font-size: 20px; 
+		font-size: 20px;
 		width: 900px;
 }
 
-.about-h1 {
-	padding-top: 120px;
+.text-h1 {
+		padding-top: 120px;
 }
 
+.work-text {
+		font-size: 20px;
+		width: 900px;
+}
