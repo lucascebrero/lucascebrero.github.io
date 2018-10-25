@@ -24,6 +24,7 @@ body {
 		font-size: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
+		border-bottom: 3px solid transparent;
 }
 
 .nav-link:hover {
@@ -42,8 +43,10 @@ body {
 		76%{ opacity: 0;}
 		100%{opacity: 0;}
 }
-.navbar-brand {
+.navbar-text {
 		color: #7cfc00;
+		font-size: 20px;
+
 }
 
 hr {
@@ -64,4 +67,15 @@ hr {
 .work-text {
 		font-size: 20px;
 		width: 900px;
+}
+
+.fa.fa-navicon {
+		color: white;
+		border: white;
+}
+
+@media(max-width: 450px){
+		.prompt{
+				display: none;
+		}
 }
