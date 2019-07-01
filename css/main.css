@@ -1,23 +1,29 @@
 .home {
-		height: 701px;
+		height: 100vh;
+		width: 100%;
 		padding: 170px;
+
+		background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("servers.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 }
 
 .about {
 		background: #1d2120;
 		height: 450px;
+		width: 100%;
 		color: white;
 }
 
 .work-experience {
 	background: white;
 	height: 750px;
+	width: 100%;
 }
 
 body {
-		background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("servers.jpg");
-		background-repeat: no-repeat;
-		background-size: contain;
+
 }
 .nav-link {
 		color: #7cfc00;
@@ -50,7 +56,7 @@ body {
 }
 
 hr {
-		width: 300px; 
+		width: 30%;
 		border-top: 2px solid white;
 }
 
@@ -78,4 +84,9 @@ hr {
 		.prompt{
 				display: none;
 		}
+}
+@media(max-width: 990px){
+	.navbar{
+			background-color: #1d2120;
+	} 
 }
