@@ -26,7 +26,7 @@ body {
 
 }
 .nav-link {
-		color: #7cfc00;
+		color: white;
 		font-size: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
@@ -34,7 +34,7 @@ body {
 }
 
 .nav-link:hover {
-		color: white;
+		color: #7cfc00;
 		border-bottom: 3px solid #7cfc00;
 }
 
