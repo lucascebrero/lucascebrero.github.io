@@ -55,7 +55,6 @@ body {
 .navbar-text {
 		color: #7cfc00;
 		font-size: 20px;
-
 }
 
 hr {
@@ -67,6 +66,7 @@ hr {
 .about-text {
 		font-size: 20px;
 		width: 900px;
+		text-align: center;
 }
 
 .text-h1 {
@@ -92,4 +92,8 @@ hr {
 	.navbar{
 			background-color: #1d2120;
 	} 
+}
+
+.navbar.scrolled {
+		background-color: #1d2120;
 }
