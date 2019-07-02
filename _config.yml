@@ -1,0 +1,12 @@
+title: Awesomee titleeee
+email: lucascebrero@gmail.com
+description: >-
+        Homelab and pentesting blog
+baseurl: ""
+url: ""
+twitter_username: lucascebrero
+github_username: lucascebrero
+
+# Build settings
+markdown: kramdown
+
