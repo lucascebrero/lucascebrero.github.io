@@ -94,3 +94,17 @@ hr {
 .navbar.scrolled {
 		background-color: #1d2120;
 }
+
+.fa {
+	width: 40px;
+}
+
+.fa:hover {
+	color: #7cfc00;
+	text-decoration: none;
+}
+
+.fa-twitter, .fa-github, .fa-linkedin {
+		color: white;
+}
+
