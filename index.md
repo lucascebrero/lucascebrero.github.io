@@ -12,6 +12,11 @@ title: Home
 		<h5>Security Analyst</h5>
 	</section>
 	<section><hr/></section>
+	<section class="justify-content-center d-flex">
+		<a class="fa fa-twitter fa-2x" href="https://twitter.com/lucascebrero"></a>
+		<a class="fa fa-github fa-2x" href=""> </a>
+		<a class="fa fa-linkedin fa-2x" href="https://ar.linkedin.com/in/lucascebrerolell"> </a>
+	</section>
 </section>
 <section id="about" class="about container-fluid">
 	<h1 class="text-h1 text-center">About me</h1>
