@@ -19,7 +19,7 @@ html {
 		color: white;
 }
 
-.work-experience {
+.latest-posts {
 	background: white;
 	height: 750px;
 	width: 100%;
@@ -69,10 +69,6 @@ hr {
 
 .text-h1 {
 		padding-top: 120px;
-}
-
-.work-text {
-		font-size: 20px;
 }
 
 .fa.fa-navicon {
