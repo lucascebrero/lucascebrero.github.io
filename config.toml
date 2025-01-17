@@ -9,7 +9,7 @@ description = "My hacking and homelab corner"
 authorImage = "/images/profile.jpg"
 paginate = 5
 Title = "Lucas Cebrero Lell | Czx"
-content = "Pentester and homelabber"
+content = "Pentester and homelabber "
 imageUrl = "/images/profile.jpg"
 
 [[params.social]]
