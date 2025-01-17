@@ -1,0 +1,3 @@
+[submodule "themes/JuiceBar"]
+	path = themes/JuiceBar
+	url = git@github.com:lucascebrero/hugo-JuiceBar.git

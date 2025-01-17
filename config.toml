@@ -1,0 +1,48 @@
+baseURL = 'https://lucascebrero.github.io/'
+languageCode = 'en'
+theme = "JuiceBar"
+title = "[ czx@localhost ] $"
+
+[params]
+author = "czx"
+description = "My hacking and homelab corner"
+authorImage = "/images/profile.jpg"
+paginate = 5
+Title = "Lucas Cebrero Lell | Czx"
+content = "I'm Lucas (a.k.a Czx), homelabber and pentester"
+imageUrl = "/images/profile.jpg"
+
+[[params.social]]
+name = "Github"
+url = "https://github.com/lucascebrero"
+
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/_czx_0"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/lucascebrerolell"
+
+[taxonomies]
+category = "categories"
+
+# To add a new navigation link
+[[menu.main]]
+name = "About"
+url = "/about"
+[[menu.main]]
+name = "Blog"
+url = "/post"
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+
+#[params.giscus]
+
+# Used for outputting the documentation (required).
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+
+
