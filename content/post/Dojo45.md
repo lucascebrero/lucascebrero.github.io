@@ -2,7 +2,6 @@
 title: "Dojo #45 - Chainfection"
 date: 2025-12-04T00:54:24Z
 categories: [ "writeup" ]
-draft: true
 ---
 
 ## Overview
