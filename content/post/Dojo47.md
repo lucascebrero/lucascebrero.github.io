@@ -1,7 +1,7 @@
 ---
 title: "Dojo #47 APICrash"
 date: 2026-02-08T01:23:53Z
-categories: []
+categories: [ "writeup" ]
 ---
 
 ## Description

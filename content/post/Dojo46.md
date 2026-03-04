@@ -1,7 +1,7 @@
 ---
 title: "Dojo #46 Ghost Whisper"
 date: 2025-12-17T17:56:50Z
-categories: []
+categories: [ "writeup" ]
 draft: false
 ---
 
